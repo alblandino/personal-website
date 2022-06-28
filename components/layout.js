@@ -44,7 +44,7 @@ export default function Layout({ children }) {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen text-gray-800 transition duration-1000 ease-in-out dark:text-white dark:bg-blueGray-700">
       <Head>
-        <title>Joel Jaime - Persona Website</title>
+        <title>Joel Jaime - Personal Website</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script defer data-domain="alblandino.dev" src="https://plausible.io/js/plausible.js"></script>
       </Head>
@@ -102,13 +102,6 @@ export default function Layout({ children }) {
           >
             <FontAwesomeIcon className="mr-6 text-2xl" icon={faLinkedinIn} />
           </a>
-          {/* <a
-            className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
-            href="https://dev.to/katherinecodes"
-            target="_blank"
-          >
-            <FontAwesomeIcon className="mr-6 text-2xl" icon={faDev} />
-          </a> */}
           <a
             className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500" title="My blog"
             href="https://blog.alblandino.dev"
