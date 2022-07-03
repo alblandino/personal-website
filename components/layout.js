@@ -46,7 +46,7 @@ export default function Layout({ children }) {
       <Head>
         <title>Joel Jaime - Personal Website</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <script defer data-domain="alblandino.dev" src="https://plausible.io/js/plausible.js"></script>
+        <script defer data-domain="alblandino.com" src="https://plausible.io/js/plausible.js"></script>
       </Head>
       <div
         style={{ minWidth: '24rem', maxWidth: '37rem' }}
@@ -104,7 +104,7 @@ export default function Layout({ children }) {
           </a>
           <a
             className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500" title="My blog"
-            href="https://blog.alblandino.dev"
+            href="https://blog.alblandino.com"
             target="_blank"
           >
             <FontAwesomeIcon className="mr-6 text-2xl" icon={faPencilAlt} />
