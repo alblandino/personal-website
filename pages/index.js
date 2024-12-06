@@ -12,7 +12,7 @@ export default function Home() {
         className="flex flex-col items-center justify-center"
       >
         <div className="flex flex-col items-center justify-center">
-          <img className="w-32 h-32 mb-8 rounded-full" src="/default.gif" alt="Joel Jaime" title="Yes, it's me!" />
+          <img className="w-128 h-128 mb-8 rounded-full" src="/default.gif" alt="Joel Jaime" title="Yes, it's me!" />
           <h1 className="mx-auto text-2xl font-semibold tracking-widest text-center sm:text-3xl" alt="Joel Jaime" title="Joel Alexander Jaime Blandino, it's my full name">
             JOEL JAIME
           </h1>
